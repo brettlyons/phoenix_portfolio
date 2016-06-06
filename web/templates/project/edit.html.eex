@@ -1,6 +1,13 @@
 <h2>Edit project</h2>
 
-<%= render "form.html", changeset: @changeset,
-                        action: project_path(@conn, :update, @project) %>
+<div class="row">
+  <div class="col-lg-12">
+    <%= render "form.html", changeset: @changeset, action: project_path(@conn, :update, @project) %>
+  </div>
+</div>
 
-<%= link "Back", to: project_path(@conn, :index) %>
+<div class="row">
+  <div class="col-lg-12">
+    <%= link "Back", to: project_path(@conn, :index), class: "btn btn-info" %>
+  </div>
+</div>

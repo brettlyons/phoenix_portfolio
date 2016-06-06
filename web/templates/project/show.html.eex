@@ -28,6 +28,15 @@
   </li>
 
 </ul>
-
-<%= link "Edit", to: project_path(@conn, :edit, @project) %>
-<%= link "Back", to: project_path(@conn, :index) %>
+<div class="row">
+  <div class="col-lg-12">
+    <%= link "Edit", to: project_path(@conn, :edit, @project), class: "btn btn-primary" %>
+  </div>
+</div>
+<p>
+<div class="row">
+  <div class="col-lg-12">
+    <%= link "Back", to: project_path(@conn, :index), class: "btn btn-info" %>
+  </div>
+</div>
+  
