@@ -19,7 +19,7 @@
       <td><%= project.name %></td>
       <td><%= project.url %></td>
       <td><%= project.description %></td>
-      <td><img alt="" style="width:160px; height:90px" src="<%= project.thumbnailUrl %>"/></td>
+      <td><img class="thumbnail" alt="A thumbnail view of the project" src="<%= project.thumbnailUrl %>"/></td>
       <td><%= project.thumbnailUrl %></td>
       <td><%= project.priority %></td>
 
